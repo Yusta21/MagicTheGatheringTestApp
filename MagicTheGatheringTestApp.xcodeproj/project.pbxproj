@@ -9,13 +9,34 @@
 /* Begin PBXBuildFile section */
 		C177D1772BBF14DA00ED80D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1762BBF14DA00ED80D4 /* AppDelegate.swift */; };
 		C177D1792BBF14DA00ED80D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1782BBF14DA00ED80D4 /* SceneDelegate.swift */; };
-		C177D17B2BBF14DA00ED80D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D17A2BBF14DA00ED80D4 /* ViewController.swift */; };
 		C177D17E2BBF14DA00ED80D4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C177D17D2BBF14DA00ED80D4 /* Base */; };
 		C177D1802BBF14DD00ED80D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C177D17F2BBF14DD00ED80D4 /* Assets.xcassets */; };
 		C177D1832BBF14DD00ED80D4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C177D1822BBF14DD00ED80D4 /* Base */; };
 		C177D18E2BBF14DE00ED80D4 /* MagicTheGatheringTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D18D2BBF14DE00ED80D4 /* MagicTheGatheringTestAppTests.swift */; };
 		C177D1982BBF14DE00ED80D4 /* MagicTheGatheringTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1972BBF14DE00ED80D4 /* MagicTheGatheringTestAppUITests.swift */; };
 		C177D19A2BBF14DE00ED80D4 /* MagicTheGatheringTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1992BBF14DE00ED80D4 /* MagicTheGatheringTestAppUITestsLaunchTests.swift */; };
+		C177D1AA2BBF2F6200ED80D4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1A92BBF2F6200ED80D4 /* FirstViewController.swift */; };
+		C177D1B22BBF361F00ED80D4 /* MAGIC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C177D1B12BBF361E00ED80D4 /* MAGIC.ttf */; };
+		C177D1B32BBF361F00ED80D4 /* MAGIC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C177D1B12BBF361E00ED80D4 /* MAGIC.ttf */; };
+		C177D1B42BBF361F00ED80D4 /* MAGIC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C177D1B12BBF361E00ED80D4 /* MAGIC.ttf */; };
+		C177D1B92BBF3D0000ED80D4 /* GeneralConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1B82BBF3D0000ED80D4 /* GeneralConfigure.swift */; };
+		C177D1BA2BBF3D0000ED80D4 /* GeneralConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1B82BBF3D0000ED80D4 /* GeneralConfigure.swift */; };
+		C177D1BB2BBF3D0000ED80D4 /* GeneralConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1B82BBF3D0000ED80D4 /* GeneralConfigure.swift */; };
+		C177D1CD2BBF5E0000ED80D4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1CC2BBF5E0000ED80D4 /* SecondViewController.swift */; };
+		C177D1CE2BBF5E0000ED80D4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1CC2BBF5E0000ED80D4 /* SecondViewController.swift */; };
+		C177D1CF2BBF5E0000ED80D4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1CC2BBF5E0000ED80D4 /* SecondViewController.swift */; };
+		C177D1D22BBF6B1800ED80D4 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1D12BBF6B1800ED80D4 /* CardModel.swift */; };
+		C177D1D32BBF6B1800ED80D4 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1D12BBF6B1800ED80D4 /* CardModel.swift */; };
+		C177D1D42BBF6B1800ED80D4 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1D12BBF6B1800ED80D4 /* CardModel.swift */; };
+		C177D1D82BC016B000ED80D4 /* cardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1D62BC016B000ED80D4 /* cardTableViewCell.swift */; };
+		C177D1D92BC016B000ED80D4 /* cardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C177D1D72BC016B000ED80D4 /* cardTableViewCell.xib */; };
+		C177D1DA2BC016B000ED80D4 /* cardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1D62BC016B000ED80D4 /* cardTableViewCell.swift */; };
+		C177D1DB2BC016B000ED80D4 /* cardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C177D1D72BC016B000ED80D4 /* cardTableViewCell.xib */; };
+		C177D1DC2BC016B000ED80D4 /* cardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C177D1D72BC016B000ED80D4 /* cardTableViewCell.xib */; };
+		C177D1DD2BC016B000ED80D4 /* cardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1D62BC016B000ED80D4 /* cardTableViewCell.swift */; };
+		C177D1DE2BC0420F00ED80D4 /* Pods_MagicTheGatheringTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202404729A2E8DF8B8C9D314 /* Pods_MagicTheGatheringTestApp.framework */; };
+		C177D1DF2BC0420F00ED80D4 /* Pods_MagicTheGatheringTestApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 202404729A2E8DF8B8C9D314 /* Pods_MagicTheGatheringTestApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C177D1E22BC1757E00ED80D4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177D1E12BC1757E00ED80D4 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +56,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C177D1E02BC0420F00ED80D4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C177D1DF2BC0420F00ED80D4 /* Pods_MagicTheGatheringTestApp.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		202404729A2E8DF8B8C9D314 /* Pods_MagicTheGatheringTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicTheGatheringTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C177D1732BBF14DA00ED80D4 /* MagicTheGatheringTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicTheGatheringTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C177D1762BBF14DA00ED80D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C177D1782BBF14DA00ED80D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C177D17A2BBF14DA00ED80D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C177D17D2BBF14DA00ED80D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C177D17F2BBF14DD00ED80D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C177D1822BBF14DD00ED80D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +84,16 @@
 		C177D1932BBF14DE00ED80D4 /* MagicTheGatheringTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicTheGatheringTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C177D1972BBF14DE00ED80D4 /* MagicTheGatheringTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicTheGatheringTestAppUITests.swift; sourceTree = "<group>"; };
 		C177D1992BBF14DE00ED80D4 /* MagicTheGatheringTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicTheGatheringTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C177D1A92BBF2F6200ED80D4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C177D1B12BBF361E00ED80D4 /* MAGIC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MAGIC.ttf; sourceTree = "<group>"; };
+		C177D1B82BBF3D0000ED80D4 /* GeneralConfigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralConfigure.swift; sourceTree = "<group>"; };
+		C177D1CC2BBF5E0000ED80D4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C177D1D12BBF6B1800ED80D4 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		C177D1D62BC016B000ED80D4 /* cardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardTableViewCell.swift; sourceTree = "<group>"; };
+		C177D1D72BC016B000ED80D4 /* cardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cardTableViewCell.xib; sourceTree = "<group>"; };
+		C177D1E12BC1757E00ED80D4 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		E7CE4833725FCD145B62ABB0 /* Pods-MagicTheGatheringTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTheGatheringTestApp.release.xcconfig"; path = "Target Support Files/Pods-MagicTheGatheringTestApp/Pods-MagicTheGatheringTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		F830FE009BFD0073F3F15F3A /* Pods-MagicTheGatheringTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTheGatheringTestApp.debug.xcconfig"; path = "Target Support Files/Pods-MagicTheGatheringTestApp/Pods-MagicTheGatheringTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C177D1DE2BC0420F00ED80D4 /* Pods_MagicTheGatheringTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +122,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		346D3A4645743A131B31EE57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				202404729A2E8DF8B8C9D314 /* Pods_MagicTheGatheringTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5599843AA4A38013F2F97E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F830FE009BFD0073F3F15F3A /* Pods-MagicTheGatheringTestApp.debug.xcconfig */,
+				E7CE4833725FCD145B62ABB0 /* Pods-MagicTheGatheringTestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C177D16A2BBF14DA00ED80D4 = {
 			isa = PBXGroup;
 			children = (
+				C177D1762BBF14DA00ED80D4 /* AppDelegate.swift */,
+				C177D1782BBF14DA00ED80D4 /* SceneDelegate.swift */,
 				C177D1752BBF14DA00ED80D4 /* MagicTheGatheringTestApp */,
 				C177D18C2BBF14DE00ED80D4 /* MagicTheGatheringTestAppTests */,
 				C177D1962BBF14DE00ED80D4 /* MagicTheGatheringTestAppUITests */,
 				C177D1742BBF14DA00ED80D4 /* Products */,
+				A5599843AA4A38013F2F97E9 /* Pods */,
+				346D3A4645743A131B31EE57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +166,10 @@
 		C177D1752BBF14DA00ED80D4 /* MagicTheGatheringTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				C177D1762BBF14DA00ED80D4 /* AppDelegate.swift */,
-				C177D1782BBF14DA00ED80D4 /* SceneDelegate.swift */,
-				C177D17A2BBF14DA00ED80D4 /* ViewController.swift */,
+				C177D1D02BBF6AF300ED80D4 /* Objects */,
+				C177D1B72BBF3C6A00ED80D4 /* Config */,
+				C177D1B52BBF38B000ED80D4 /* Resources */,
+				C177D1A82BBF2AC600ED80D4 /* ViewController */,
 				C177D17C2BBF14DA00ED80D4 /* Main.storyboard */,
 				C177D17F2BBF14DD00ED80D4 /* Assets.xcassets */,
 				C177D1812BBF14DD00ED80D4 /* LaunchScreen.storyboard */,
@@ -127,6 +195,58 @@
 			path = MagicTheGatheringTestAppUITests;
 			sourceTree = "<group>";
 		};
+		C177D1A82BBF2AC600ED80D4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C177D1D52BC0166200ED80D4 /* Components */,
+				C177D1A92BBF2F6200ED80D4 /* FirstViewController.swift */,
+				C177D1CC2BBF5E0000ED80D4 /* SecondViewController.swift */,
+				C177D1E12BC1757E00ED80D4 /* ThirdViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C177D1B52BBF38B000ED80D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C177D1B62BBF38D300ED80D4 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C177D1B62BBF38D300ED80D4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C177D1B12BBF361E00ED80D4 /* MAGIC.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C177D1B72BBF3C6A00ED80D4 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C177D1B82BBF3D0000ED80D4 /* GeneralConfigure.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		C177D1D02BBF6AF300ED80D4 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C177D1D12BBF6B1800ED80D4 /* CardModel.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		C177D1D52BC0166200ED80D4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C177D1D62BC016B000ED80D4 /* cardTableViewCell.swift */,
+				C177D1D72BC016B000ED80D4 /* cardTableViewCell.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C177D19D2BBF14DE00ED80D4 /* Build configuration list for PBXNativeTarget "MagicTheGatheringTestApp" */;
 			buildPhases = (
+				8D7D00E4CDDC24BC06E93EA9 /* [CP] Check Pods Manifest.lock */,
 				C177D16F2BBF14DA00ED80D4 /* Sources */,
 				C177D1702BBF14DA00ED80D4 /* Frameworks */,
 				C177D1712BBF14DA00ED80D4 /* Resources */,
+				4BAA3B64BC70C22EA4F21178 /* [CP] Embed Pods Frameworks */,
+				C177D1E02BC0420F00ED80D4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +356,9 @@
 			files = (
 				C177D1802BBF14DD00ED80D4 /* Assets.xcassets in Resources */,
 				C177D1832BBF14DD00ED80D4 /* Base in Resources */,
+				C177D1B22BBF361F00ED80D4 /* MAGIC.ttf in Resources */,
 				C177D17E2BBF14DA00ED80D4 /* Base in Resources */,
+				C177D1D92BC016B000ED80D4 /* cardTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +366,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C177D1B32BBF361F00ED80D4 /* MAGIC.ttf in Resources */,
+				C177D1DB2BC016B000ED80D4 /* cardTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,19 +375,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C177D1B42BBF361F00ED80D4 /* MAGIC.ttf in Resources */,
+				C177D1DC2BC016B000ED80D4 /* cardTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BAA3B64BC70C22EA4F21178 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicTheGatheringTestApp/Pods-MagicTheGatheringTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicTheGatheringTestApp/Pods-MagicTheGatheringTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagicTheGatheringTestApp/Pods-MagicTheGatheringTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D7D00E4CDDC24BC06E93EA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicTheGatheringTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C177D16F2BBF14DA00ED80D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C177D17B2BBF14DA00ED80D4 /* ViewController.swift in Sources */,
+				C177D1AA2BBF2F6200ED80D4 /* FirstViewController.swift in Sources */,
+				C177D1B92BBF3D0000ED80D4 /* GeneralConfigure.swift in Sources */,
+				C177D1D82BC016B000ED80D4 /* cardTableViewCell.swift in Sources */,
 				C177D1772BBF14DA00ED80D4 /* AppDelegate.swift in Sources */,
+				C177D1CD2BBF5E0000ED80D4 /* SecondViewController.swift in Sources */,
 				C177D1792BBF14DA00ED80D4 /* SceneDelegate.swift in Sources */,
+				C177D1E22BC1757E00ED80D4 /* ThirdViewController.swift in Sources */,
+				C177D1D22BBF6B1800ED80D4 /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +444,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C177D1CE2BBF5E0000ED80D4 /* SecondViewController.swift in Sources */,
+				C177D1D32BBF6B1800ED80D4 /* CardModel.swift in Sources */,
+				C177D1DA2BC016B000ED80D4 /* cardTableViewCell.swift in Sources */,
 				C177D18E2BBF14DE00ED80D4 /* MagicTheGatheringTestAppTests.swift in Sources */,
+				C177D1BA2BBF3D0000ED80D4 /* GeneralConfigure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +456,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C177D1CF2BBF5E0000ED80D4 /* SecondViewController.swift in Sources */,
 				C177D19A2BBF14DE00ED80D4 /* MagicTheGatheringTestAppUITestsLaunchTests.swift in Sources */,
 				C177D1982BBF14DE00ED80D4 /* MagicTheGatheringTestAppUITests.swift in Sources */,
+				C177D1BB2BBF3D0000ED80D4 /* GeneralConfigure.swift in Sources */,
+				C177D1D42BBF6B1800ED80D4 /* CardModel.swift in Sources */,
+				C177D1DD2BC016B000ED80D4 /* cardTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,12 +621,14 @@
 		};
 		C177D19E2BBF14DE00ED80D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F830FE009BFD0073F3F15F3A /* Pods-MagicTheGatheringTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VH2FP4YPGS;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MagicTheGatheringTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -450,6 +636,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,12 +652,14 @@
 		};
 		C177D19F2BBF14DE00ED80D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7CE4833725FCD145B62ABB0 /* Pods-MagicTheGatheringTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VH2FP4YPGS;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MagicTheGatheringTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -478,6 +667,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

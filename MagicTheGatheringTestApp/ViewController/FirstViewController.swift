@@ -8,22 +8,32 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    
+    
+    
+    
+    @IBOutlet weak var TextView: UILabel!
+    @IBOutlet weak var cardButton: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        TextView.text = "Noel Hernández Yusta \n\nnoelyusta@hotmail.com \n\n4/4/2024"
+        TextView.adjustsFontSizeToFitWidth = true
+        generalConfigureButton(button: cardButton)
 
-        // Do any additional setup after loading the view.
+        cardButton.setTitle("Ver Cartas", for: .normal)
+        cardButton.isEnabled = true
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+  
+    
+    @IBAction func goToSecondViewControllerPressed(_ sender: Any) {
+        print("buttonpressed")
+        cardButton.titleLabel?.textColor = UIColor.white
+        let secondViewController: SecondViewController = self.storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
+        
+        self.navigationController?.pushViewController(secondViewController, animated: true)
     }
-    */
-
 }
